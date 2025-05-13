@@ -1,7 +1,5 @@
-/** @type {import('tailwindcss').Config} */
 import type { Config } from 'tailwindcss';
-import type { Config as TailwindConfig } from 'tailwindcss/types/config';
-
+ 
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
